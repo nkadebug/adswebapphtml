@@ -1,0 +1,24 @@
+{
+  "name": "adswebapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login":"npx firebase login --no-localhost",
+    "serve":"npx firebase serve",
+    "deploy": "npx firebase deploy --only hosting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkadebug/adswebapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkadebug/adswebapp/issues"
+  },
+  "homepage": "https://github.com/nkadebug/adswebapp#readme",
+  "devDependencies": {
+    "firebase-tools": "^9.14.0"
+  }
+}

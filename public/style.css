@@ -1,0 +1,7 @@
+#chats > p:nth-child(1){
+    border-top: none;
+}
+#chats > p{
+    margin: 0;
+    border-top: 1px solid lightgray;
+}

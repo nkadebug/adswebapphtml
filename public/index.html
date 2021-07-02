@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ads Web App</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script defer src="/__/firebase/8.7.0/firebase-app.js"></script>
+  <script defer src="/__/firebase/8.7.0/firebase-auth.js"></script>
+  <script defer src="/__/firebase/8.7.0/firebase-database.js"></script>
+  <!-- <script defer src="/__/firebase/8.7.0/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/8.7.0/firebase-functions.js"></script>
+    <script defer src="/__/firebase/8.7.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/8.7.0/firebase-storage.js"></script>
+    <script defer src="/__/firebase/8.7.0/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/8.7.0/firebase-remote-config.js"></script>
+    <script defer src="/__/firebase/8.7.0/firebase-performance.js"></script> -->
+  <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/cash-dom@8.1.0/dist/cash.min.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <div id="chat">
+      <div id="chats" class="p-1"></div>
+      <form class="input-group p-1 position-absolute bottom-0" id="chatbox">
+        <input type="text" class="form-control" placeholder="Type here ..." id="msg">
+        <button class="btn btn-outline-secondary" type="submit" id="send">Send</button>
+      </form>
+    </div>
+  </div>
+  <script defer src="./main.js"></script>
+</body>
+
+</html>
