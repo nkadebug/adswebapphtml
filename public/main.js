@@ -5,7 +5,7 @@ const usersRef = db.ref('users');
 const chatsRef = db.ref('chats');
 
 let uid = null;
-let to = 'nka';
+let to = 'nka1';
 
 auth.signInAnonymously();
 
