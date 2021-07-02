@@ -1,7 +1,28 @@
-#chats > p:nth-child(1){
-    border-top: none;
+#chats {
+  display: block;
+  overflow: auto;
+  height: 100%;
+  margin-bottom: 46px;
 }
-#chats > p{
-    margin: 0;
-    border-top: 1px solid lightgray;
+#chats > p:nth-child(1) {
+  border-top: none;
+}
+#chats > p {
+  margin: 0;
+  max-width: 80%;
+  clear: both;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 4px;
+  margin-top: 4px;
+}
+
+#chats > p.left {
+  background-color: #ddeeff;
+  float: left;
+}
+
+#chats > p.right {
+  background-color: #ddffdd;
+  float: right;
 }
